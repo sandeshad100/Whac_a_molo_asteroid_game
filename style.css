@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin:0;
+}
+body{
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    background-image: url('withstar.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+
+#grid{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+    /* border: 1px solid green; */
+    /* max-height: 70vh; */
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 150px 150px 150px;
+    gap: 10px;
+    cursor: url('sm.png'),auto;
+}
+.square{
+  /* border: 1px solid red; */
+height: 100px;
+
+}
+.mole{
+    /* background-color: blue; */
+    background-image: url('astroid.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90%;
+}
+
+
